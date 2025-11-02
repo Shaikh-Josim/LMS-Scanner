@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "LMS Scanner",
+    "slug": "lms-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "permissions":["CAMERA"],
+    "icon": "./assets/lib.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon-lib.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-lib.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.codevortex24.barcodescanner"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b0c92af0-f2f7-4ce0-8f6e-052a8c7520e9"
+      }
+    },
+    "plugins": [
+      ["expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
